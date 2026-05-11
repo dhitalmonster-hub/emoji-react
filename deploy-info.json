@@ -1,0 +1,9 @@
+{
+  "contractId": "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT.emoji-react",
+  "deployer": "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT",
+  "txid": "77c4a26aeaf05484d0ae8384c24580b2672dbb0f3c3f7ad06fbe1c60c7f37a97",
+  "submittedAt": "2026-05-11T19:12:04.479Z",
+  "fee": "5000",
+  "clarityVersion": 4,
+  "explorer": "https://explorer.hiro.so/txid/77c4a26aeaf05484d0ae8384c24580b2672dbb0f3c3f7ad06fbe1c60c7f37a97?chain=mainnet"
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Emoji React</title>
+<meta name="description" content="Emoji React -- broadcast emoji reactions on-chain (Stacks Clarity 4)" />
+<meta name="talentapp:project_verification" content="<verification-tag-pending>">
+<style>
+  :root { color-scheme: dark; }
+  body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: #1a1208; color: #efe6d2;
+    max-width: 600px; margin: 0 auto; padding: 36px 18px;
+    line-height: 1.5;
+  }
+  h1 { font-size: 26px; margin-bottom: 6px; color: #f4b942; }
+  p.tagline { color: #b59663; margin-top: 0; }
+  .card {
+    background: #2a1d0c; border: 1px solid #4a3a18; border-radius: 6px;
+    padding: 22px; margin: 22px 0;
+  }
+  .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin: 14px 0; }
+  .emoji-btn {
+    background: #1a1208; border: 1px solid #4a3a18; color: #efe6d2;
+    padding: 14px 0; border-radius: 4px; font-size: 22px; cursor: pointer;
+  }
+  .emoji-btn.sel { border-color: #f4b942; background: #3a2a10; }
+  button.go {
+    background: #f4b942; color: #1a1208; border: 0; padding: 11px 22px;
+    border-radius: 5px; font-size: 15px; cursor: pointer; font-family: inherit; font-weight: 600;
+  }
+  button.go:disabled { opacity: 0.4; cursor: not-allowed; }
+  .row { display: flex; gap: 10px; align-items: center; margin-top: 14px; }
+  .addr, .log { font-size: 12px; color: #b59663; word-break: break-all; }
+  .log { margin-top: 14px; }
+  .log code { color: #efe6d2; background: #1a1208; padding: 2px 5px; border-radius: 3px; }
+  a { color: #f4b942; }
+</style>
+</head>
+<body>
+  <h1>Emoji React</h1>
+  <p class="tagline">Pick an emoji, broadcast it on-chain.</p>
+
+  <div class="card">
+    <div class="grid" id="grid"></div>
+    <div class="addr" id="who" style="margin-top:14px;">not connected</div>
+  </div>
+
+  <div class="row">
+    <button class="go" id="connect">Connect Wallet</button>
+    <button class="go" id="react" disabled>React</button>
+  </div>
+
+  <div class="log" id="log"></div>
+
+  <p class="addr" style="margin-top:30px;">
+    Contract: <a id="contractLink" target="_blank" rel="noopener"></a><br />
+    Network: Stacks Mainnet &middot; Clarity 4
+  </p>
+
+<script type="module">
+  import { showConnect, openContractCall } from "https://esm.sh/@stacks/connect@7.7.1";
+  import { uintCV, PostConditionMode } from "https://esm.sh/@stacks/transactions@6.17.0";
+
+  const CONTRACT_ADDRESS = "SP20Z3WPE6PVN1B8APDQNDH5BR1AJNMR25QPCSGFT";
+  const CONTRACT_NAME    = "emoji-react";
+  const APP_NAME         = "Emoji React";
+  const EMOJI            = ["fire","star","heart","clap","rocket","laugh","cry","party","wow","ok"];
+
+  const $ = (id) => document.getElementById(id);
+  $("contractLink").href = `https://explorer.hiro.so/${CONTRACT_ADDRESS}.${CONTRACT_NAME}?chain=mainnet`;
+  $("contractLink").textContent = `${CONTRACT_ADDRESS}.${CONTRACT_NAME}`;
+
+  let picked = 1;
+  const grid = $("grid");
+  EMOJI.forEach((label, i) => {
+    const b = document.createElement("button");
+    b.className = "emoji-btn" + (i === 0 ? " sel" : "");
+    b.textContent = label;
+    b.dataset.id = i + 1;
+    b.onclick = () => {
+      picked = i + 1;
+      grid.querySelectorAll(".emoji-btn").forEach((x) => x.classList.remove("sel"));
+      b.classList.add("sel");
+    };
+    grid.appendChild(b);
+  });
+
+  $("connect").onclick = () => {
+    showConnect({
+      appDetails: { name: APP_NAME, icon: window.location.origin + "/icon.png" },
+      onFinish: ({ userSession }) => {
+        const ud = userSession.loadUserData();
+        $("who").textContent = "you: " + ud.profile.stxAddress.mainnet;
+        $("react").disabled = false;
+      },
+    });
+  };
+
+  $("react").onclick = () => {
+    openContractCall({
+      contractAddress: CONTRACT_ADDRESS,
+      contractName:    CONTRACT_NAME,
+      functionName:    "react",
+      functionArgs:    [uintCV(picked)],
+      postConditionMode: PostConditionMode.Allow,
+      network: "mainnet",
+      appDetails: { name: APP_NAME, icon: window.location.origin + "/icon.png" },
+      onFinish: (data) => {
+        $("log").innerHTML = `react tx: <code>${data.txId}</code> &mdash; <a href="https://explorer.hiro.so/txid/${data.txId}?chain=mainnet" target="_blank">explorer</a>`;
+      },
+    });
+  };
+</script>
+</body>
+</html>
