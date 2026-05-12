@@ -5,3 +5,4 @@
 - 2026-05-12 — housekeeping pass (cj80)
 - 2026-05-12 — tighten docs (crh5)
 - 2026-05-12 — small wording fixes (qx6r)
+- 2026-05-12 — tidy up notes (p7ai)
