@@ -22,3 +22,7 @@ Static HTML in `frontend/`. Connect a Stacks wallet, pick an emoji, send the rea
 ## License
 
 MIT
+
+---
+
+_Last updated: 2026-05-12_
