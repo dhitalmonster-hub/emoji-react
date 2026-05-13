@@ -12,3 +12,4 @@ Dev journal — informal.
 - 2026-05-12: idea: tiny visual polish on the home page
 - 2026-05-13: idea: tiny visual polish on the home page
 - 2026-05-13: idea: tiny visual polish on the home page
+- 2026-05-13: todo: review error messages for clarity
