@@ -22,3 +22,4 @@
 - 2026-05-13 — small doc improvements (dmw1)
 - 2026-05-13 — small wording fixes (5rk3)
 - 2026-05-13 — small doc improvements (st1c)
+- 2026-05-13 — refresh build metadata (qela)
