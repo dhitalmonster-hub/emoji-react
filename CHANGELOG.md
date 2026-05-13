@@ -25,3 +25,4 @@
 - 2026-05-13 — refresh build metadata (qela)
 - 2026-05-13 — housekeeping pass (68qb)
 - 2026-05-13 — small doc improvements (tjk6)
+- 2026-05-13 — small refinements (rje5)
