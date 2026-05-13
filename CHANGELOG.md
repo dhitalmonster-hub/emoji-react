@@ -6,3 +6,4 @@
 - 2026-05-12 — tighten docs (crh5)
 - 2026-05-12 — small wording fixes (qx6r)
 - 2026-05-12 — tidy up notes (p7ai)
+- 2026-05-13 — small doc improvements (4yj4)
