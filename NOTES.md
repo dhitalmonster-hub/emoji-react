@@ -23,3 +23,4 @@ Dev journal — informal.
 - 2026-05-13: note: keep the frontend layout untouched for now
 - 2026-05-13: note: keep the frontend layout untouched for now
 - 2026-05-13: tbd: feedback widget on landing
+- 2026-05-13: todo: better empty-state copy
