@@ -18,3 +18,4 @@
 - 2026-05-13 — small doc improvements (oj9r)
 - 2026-05-13 — small doc improvements (evy7)
 - 2026-05-13 — small doc improvements (ivgz)
+- 2026-05-13 — tighten docs (i2kl)
