@@ -20,3 +20,4 @@
 - 2026-05-13 — small doc improvements (ivgz)
 - 2026-05-13 — tighten docs (i2kl)
 - 2026-05-13 — small doc improvements (dmw1)
+- 2026-05-13 — small wording fixes (5rk3)
