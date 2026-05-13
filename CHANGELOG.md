@@ -15,3 +15,4 @@
 - 2026-05-13 — tidy up notes (l5mx)
 - 2026-05-13 — small wording fixes (12ma)
 - 2026-05-13 — routine maintenance (214h)
+- 2026-05-13 — small doc improvements (oj9r)
