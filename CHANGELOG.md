@@ -13,3 +13,4 @@
 - 2026-05-13 — small doc improvements (m8a0)
 - 2026-05-13 — routine maintenance (q9ny)
 - 2026-05-13 — tidy up notes (l5mx)
+- 2026-05-13 — small wording fixes (12ma)
