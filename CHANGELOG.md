@@ -29,3 +29,4 @@
 - 2026-05-14 — routine maintenance (cz0r)
 - 2026-05-14 — misc tweaks (hq2a)
 - 2026-05-14 — small refinements (0ipk)
+- 2026-05-14 — tidy up notes (m4er)
