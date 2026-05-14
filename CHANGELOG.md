@@ -27,3 +27,4 @@
 - 2026-05-13 — small doc improvements (tjk6)
 - 2026-05-13 — small refinements (rje5)
 - 2026-05-14 — routine maintenance (cz0r)
+- 2026-05-14 — misc tweaks (hq2a)
