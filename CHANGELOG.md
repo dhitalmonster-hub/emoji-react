@@ -30,3 +30,4 @@
 - 2026-05-14 — misc tweaks (hq2a)
 - 2026-05-14 — small refinements (0ipk)
 - 2026-05-14 — tidy up notes (m4er)
+- 2026-05-14 — small doc improvements (o91y)
