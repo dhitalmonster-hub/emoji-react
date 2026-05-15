@@ -33,3 +33,5 @@
 - 2026-05-14 — small doc improvements (o91y)
 - 2026-05-15 — small wording fixes (r573)
 - 2026-05-15 — routine maintenance (mnn5)
+- 2026-05-15 — tidy up notes (1k17)
+- 2026-05-15 — tidy up notes (7ggl)
