@@ -31,3 +31,4 @@
 - 2026-05-14 — small refinements (0ipk)
 - 2026-05-14 — tidy up notes (m4er)
 - 2026-05-14 — small doc improvements (o91y)
+- 2026-05-15 — small wording fixes (r573)
