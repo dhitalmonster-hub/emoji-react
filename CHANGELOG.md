@@ -35,3 +35,4 @@
 - 2026-05-15 — routine maintenance (mnn5)
 - 2026-05-15 — tidy up notes (1k17)
 - 2026-05-15 — tidy up notes (7ggl)
+- 2026-05-15 — misc tweaks (i4p0)
