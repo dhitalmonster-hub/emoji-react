@@ -38,3 +38,4 @@
 - 2026-05-15 — misc tweaks (i4p0)
 - 2026-05-15 — tidy up notes (rjws)
 - 2026-05-15 — routine maintenance (ncco)
+- 2026-05-15 — small doc improvements (igdz)
