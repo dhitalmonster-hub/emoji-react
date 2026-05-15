@@ -36,3 +36,5 @@ Dev journal — informal.
 - 2026-05-15: thought: maybe a small "how it works" section
 - 2026-05-15: micro-task: align dates in changelog format
 - 2026-05-15: tbd: feedback widget on landing
+- 2026-05-15: reminder: keep docs in sync with on-chain calls
+- 2026-05-15: considering a small tweak to UX copy
