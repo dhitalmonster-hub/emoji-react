@@ -41,3 +41,4 @@
 - 2026-05-15 — small doc improvements (igdz)
 - 2026-05-15 — tighten docs (wn2s)
 - 2026-05-15 — tighten docs (e4em)
+- 2026-05-15 — refresh build metadata (l4eb)
