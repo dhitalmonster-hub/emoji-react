@@ -42,3 +42,4 @@ Dev journal — informal.
 - 2026-05-15: todo: better empty-state copy
 - 2026-05-16: todo: review error messages for clarity
 - 2026-05-16: thinking about cleanup of contract entry point
+- 2026-05-16: reminder: keep docs in sync with on-chain calls
