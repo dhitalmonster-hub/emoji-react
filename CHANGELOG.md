@@ -44,3 +44,4 @@
 - 2026-05-15 — refresh build metadata (l4eb)
 - 2026-05-15 — refresh build metadata (ri8x)
 - 2026-05-16 — small wording fixes (pnkc)
+- 2026-05-16 — small refinements (hxlf)
