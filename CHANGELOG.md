@@ -47,3 +47,4 @@
 - 2026-05-16 — small refinements (hxlf)
 - 2026-05-16 — small doc improvements (h775)
 - 2026-05-16 — routine maintenance (evhc)
+- 2026-05-16 — misc tweaks (20ne)
