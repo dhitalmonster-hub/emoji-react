@@ -51,3 +51,4 @@
 - 2026-05-16 — minor cleanup and polish (6ac4)
 - 2026-05-16 — minor cleanup and polish (iai3)
 - 2026-05-17 — routine maintenance (winq)
+- 2026-05-17 — small doc improvements (cdmn)
