@@ -57,3 +57,4 @@
 - 2026-05-17 — tighten docs (8c1j)
 - 2026-05-17 — routine maintenance (v2qn)
 - 2026-05-17 — refresh build metadata (6g4u)
+- 2026-05-17 — tidy up notes (o0dz)
