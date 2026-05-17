@@ -54,3 +54,4 @@
 - 2026-05-17 — small doc improvements (cdmn)
 - 2026-05-17 — small wording fixes (e578)
 - 2026-05-17 — misc tweaks (8tel)
+- 2026-05-17 — tighten docs (8c1j)
