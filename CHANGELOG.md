@@ -60,3 +60,4 @@
 - 2026-05-17 — tidy up notes (o0dz)
 - 2026-05-18 — refresh build metadata (18eb)
 - 2026-05-18 — refresh build metadata (1put)
+- 2026-05-18 — tighten docs (0o5m)
