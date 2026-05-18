@@ -58,3 +58,5 @@
 - 2026-05-17 — routine maintenance (v2qn)
 - 2026-05-17 — refresh build metadata (6g4u)
 - 2026-05-17 — tidy up notes (o0dz)
+- 2026-05-18 — refresh build metadata (18eb)
+- 2026-05-18 — refresh build metadata (1put)
