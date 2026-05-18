@@ -61,3 +61,4 @@
 - 2026-05-18 — refresh build metadata (18eb)
 - 2026-05-18 — refresh build metadata (1put)
 - 2026-05-18 — tighten docs (0o5m)
+- 2026-05-18 — minor cleanup and polish (p6qs)
