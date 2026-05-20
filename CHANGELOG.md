@@ -69,3 +69,4 @@
 - 2026-05-20 — refresh build metadata (h2de)
 - 2026-05-20 — refresh build metadata (48u7)
 - 2026-05-20 — tighten docs (33xe)
+- 2026-05-20 — misc tweaks (wqpm)
