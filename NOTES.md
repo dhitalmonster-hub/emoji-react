@@ -67,3 +67,4 @@ Dev journal — informal.
 - 2026-05-20: thought: maybe a small "how it works" section
 - 2026-05-20: todo: better empty-state copy
 - 2026-05-20: thinking about cleanup of contract entry point
+- 2026-05-20: reminder: keep docs in sync with on-chain calls
