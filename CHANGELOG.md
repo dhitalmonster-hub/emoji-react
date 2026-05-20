@@ -63,3 +63,6 @@
 - 2026-05-18 — tighten docs (0o5m)
 - 2026-05-18 — minor cleanup and polish (p6qs)
 - 2026-05-18 — tidy up notes (c7x1)
+- 2026-05-20 — tighten docs (mlgx)
+- 2026-05-20 — tidy up notes (kt07)
+- 2026-05-20 — minor cleanup and polish (f5j2)
