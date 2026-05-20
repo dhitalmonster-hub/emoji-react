@@ -66,3 +66,4 @@
 - 2026-05-20 — tighten docs (mlgx)
 - 2026-05-20 — tidy up notes (kt07)
 - 2026-05-20 — minor cleanup and polish (f5j2)
+- 2026-05-20 — refresh build metadata (h2de)
