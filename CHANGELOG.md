@@ -75,3 +75,5 @@
 - 2026-05-21 — small refinements (iv0s)
 - 2026-05-21 — misc tweaks (7zvt)
 - 2026-05-21 — small doc improvements (7fnk)
+- 2026-05-21 — routine maintenance (h4yc)
+- 2026-05-21 — minor cleanup and polish (sw99)
