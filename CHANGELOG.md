@@ -72,3 +72,4 @@
 - 2026-05-20 — misc tweaks (wqpm)
 - 2026-05-20 — housekeeping pass (d6e5)
 - 2026-05-21 — minor cleanup and polish (0cny)
+- 2026-05-21 — small refinements (iv0s)
