@@ -71,3 +71,4 @@
 - 2026-05-20 — tighten docs (33xe)
 - 2026-05-20 — misc tweaks (wqpm)
 - 2026-05-20 — housekeeping pass (d6e5)
+- 2026-05-21 — minor cleanup and polish (0cny)
