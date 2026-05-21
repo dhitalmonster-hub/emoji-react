@@ -74,3 +74,4 @@ Dev journal — informal.
 - 2026-05-20: thought: maybe a small "how it works" section
 - 2026-05-20: tbd: feedback widget on landing
 - 2026-05-21: micro-task: align dates in changelog format
+- 2026-05-21: thought: maybe a small "how it works" section
