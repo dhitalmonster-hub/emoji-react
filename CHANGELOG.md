@@ -80,3 +80,4 @@
 - 2026-05-21 — misc tweaks (i4w1)
 - 2026-05-21 — small refinements (7hwj)
 - 2026-05-21 — minor cleanup and polish (scjt)
+- 2026-05-22 — small doc improvements (daqf)
