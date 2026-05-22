@@ -77,3 +77,4 @@ Dev journal — informal.
 - 2026-05-21: thought: maybe a small "how it works" section
 - 2026-05-21: todo: better empty-state copy
 - 2026-05-21: thinking about cleanup of contract entry point
+- 2026-05-22: micro-task: align dates in changelog format
