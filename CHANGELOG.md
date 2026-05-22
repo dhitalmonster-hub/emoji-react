@@ -82,3 +82,4 @@
 - 2026-05-21 — minor cleanup and polish (scjt)
 - 2026-05-22 — small doc improvements (daqf)
 - 2026-05-22 — misc tweaks (r0b8)
+- 2026-05-22 — small refinements (q3g1)
