@@ -84,3 +84,4 @@
 - 2026-05-22 — misc tweaks (r0b8)
 - 2026-05-22 — small refinements (q3g1)
 - 2026-05-23 — small doc improvements (wp10)
+- 2026-05-23 — minor cleanup and polish (bggb)
