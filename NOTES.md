@@ -81,3 +81,4 @@ Dev journal — informal.
 - 2026-05-22: todo: review error messages for clarity
 - 2026-05-22: todo: review error messages for clarity
 - 2026-05-23: micro-task: align dates in changelog format
+- 2026-05-23: reminder: keep docs in sync with on-chain calls
