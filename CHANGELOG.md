@@ -87,3 +87,4 @@
 - 2026-05-23 — minor cleanup and polish (bggb)
 - 2026-05-23 — small wording fixes (1r91)
 - 2026-05-23 — housekeeping pass (5nwr)
+- 2026-05-25 — housekeeping pass (i80z)
