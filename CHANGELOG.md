@@ -90,3 +90,4 @@
 - 2026-05-25 — housekeeping pass (i80z)
 - 2026-05-25 — small refinements (f2le)
 - 2026-05-25 — small doc improvements (hob5)
+- 2026-05-25 — refresh build metadata (04da)
