@@ -90,3 +90,4 @@ Dev journal — informal.
 - 2026-05-29: micro-task: align dates in changelog format
 - 2026-05-29: thought: maybe a small "how it works" section
 - 2026-05-29: note: keep the frontend layout untouched for now
+- 2026-05-29: micro-task: align dates in changelog format
