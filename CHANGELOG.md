@@ -92,3 +92,4 @@
 - 2026-05-25 — small doc improvements (hob5)
 - 2026-05-25 — refresh build metadata (04da)
 - 2026-05-25 — small doc improvements (ete1)
+- 2026-05-29 — misc tweaks (5l7g)
